@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BCB5CE22168E61E00E241BF /* MainFrameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB5CE12168E61E00E241BF /* MainFrameController.swift */; };
+		8BCB5CE42169A38600E241BF /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB5CE32169A38600E241BF /* ContentViewController.swift */; };
+		8BF2D6BF2162A3E2009F9D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6BE2162A3E2009F9D14 /* AppDelegate.swift */; };
+		8BF2D6C32162A3E3009F9D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D6C22162A3E3009F9D14 /* Assets.xcassets */; };
+		8BF2D6C62162A3E3009F9D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D6C42162A3E3009F9D14 /* Main.storyboard */; };
+		8BF2D6D22162A3E3009F9D14 /* XdagWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6D12162A3E3009F9D14 /* XdagWalletTests.swift */; };
+		8BF2D6DD2162A3E3009F9D14 /* XdagWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF2D6CE2162A3E3009F9D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF2D6B32162A3E1009F9D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF2D6BA2162A3E2009F9D14;
+			remoteInfo = XdagWallet;
+		};
+		8BF2D6D92162A3E3009F9D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF2D6B32162A3E1009F9D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF2D6BA2162A3E2009F9D14;
+			remoteInfo = XdagWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BCB5CE12168E61E00E241BF /* MainFrameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFrameController.swift; sourceTree = "<group>"; };
+		8BCB5CE32169A38600E241BF /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		8BF2D6BB2162A3E2009F9D14 /* XdagWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XdagWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2D6BE2162A3E2009F9D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BF2D6C22162A3E3009F9D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF2D6C52162A3E3009F9D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF2D6C72162A3E3009F9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF2D6C82162A3E3009F9D14 /* XdagWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XdagWallet.entitlements; sourceTree = "<group>"; };
+		8BF2D6CD2162A3E3009F9D14 /* XdagWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XdagWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2D6D12162A3E3009F9D14 /* XdagWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XdagWalletTests.swift; sourceTree = "<group>"; };
+		8BF2D6D32162A3E3009F9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF2D6D82162A3E3009F9D14 /* XdagWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XdagWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XdagWalletUITests.swift; sourceTree = "<group>"; };
+		8BF2D6DE2162A3E3009F9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF2D6B82162A3E2009F9D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6CA2162A3E3009F9D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6D52162A3E3009F9D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF2D6B22162A3E1009F9D14 = {
+			isa = PBXGroup;
+			children = (
+				8BF2D6BD2162A3E2009F9D14 /* XdagWallet */,
+				8BF2D6D02162A3E3009F9D14 /* XdagWalletTests */,
+				8BF2D6DB2162A3E3009F9D14 /* XdagWalletUITests */,
+				8BF2D6BC2162A3E2009F9D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF2D6BC2162A3E2009F9D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2D6BB2162A3E2009F9D14 /* XdagWallet.app */,
+				8BF2D6CD2162A3E3009F9D14 /* XdagWalletTests.xctest */,
+				8BF2D6D82162A3E3009F9D14 /* XdagWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF2D6BD2162A3E2009F9D14 /* XdagWallet */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2D6BE2162A3E2009F9D14 /* AppDelegate.swift */,
+				8BCB5CE32169A38600E241BF /* ContentViewController.swift */,
+				8BCB5CE12168E61E00E241BF /* MainFrameController.swift */,
+				8BF2D6C22162A3E3009F9D14 /* Assets.xcassets */,
+				8BF2D6C42162A3E3009F9D14 /* Main.storyboard */,
+				8BF2D6C72162A3E3009F9D14 /* Info.plist */,
+				8BF2D6C82162A3E3009F9D14 /* XdagWallet.entitlements */,
+			);
+			path = XdagWallet;
+			sourceTree = "<group>";
+		};
+		8BF2D6D02162A3E3009F9D14 /* XdagWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2D6D12162A3E3009F9D14 /* XdagWalletTests.swift */,
+				8BF2D6D32162A3E3009F9D14 /* Info.plist */,
+			);
+			path = XdagWalletTests;
+			sourceTree = "<group>";
+		};
+		8BF2D6DB2162A3E3009F9D14 /* XdagWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */,
+				8BF2D6DE2162A3E3009F9D14 /* Info.plist */,
+			);
+			path = XdagWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF2D6BA2162A3E2009F9D14 /* XdagWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2D6E12162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWallet" */;
+			buildPhases = (
+				8BF2D6B72162A3E2009F9D14 /* Sources */,
+				8BF2D6B82162A3E2009F9D14 /* Frameworks */,
+				8BF2D6B92162A3E2009F9D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XdagWallet;
+			productName = XdagWallet;
+			productReference = 8BF2D6BB2162A3E2009F9D14 /* XdagWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BF2D6CC2162A3E3009F9D14 /* XdagWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2D6E42162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWalletTests" */;
+			buildPhases = (
+				8BF2D6C92162A3E3009F9D14 /* Sources */,
+				8BF2D6CA2162A3E3009F9D14 /* Frameworks */,
+				8BF2D6CB2162A3E3009F9D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF2D6CF2162A3E3009F9D14 /* PBXTargetDependency */,
+			);
+			name = XdagWalletTests;
+			productName = XdagWalletTests;
+			productReference = 8BF2D6CD2162A3E3009F9D14 /* XdagWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BF2D6D72162A3E3009F9D14 /* XdagWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2D6E72162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWalletUITests" */;
+			buildPhases = (
+				8BF2D6D42162A3E3009F9D14 /* Sources */,
+				8BF2D6D52162A3E3009F9D14 /* Frameworks */,
+				8BF2D6D62162A3E3009F9D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF2D6DA2162A3E3009F9D14 /* PBXTargetDependency */,
+			);
+			name = XdagWalletUITests;
+			productName = XdagWalletUITests;
+			productReference = 8BF2D6D82162A3E3009F9D14 /* XdagWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF2D6B32162A3E1009F9D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "张晓亮";
+				TargetAttributes = {
+					8BF2D6BA2162A3E2009F9D14 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					8BF2D6CC2162A3E3009F9D14 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8BF2D6BA2162A3E2009F9D14;
+					};
+					8BF2D6D72162A3E3009F9D14 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8BF2D6BA2162A3E2009F9D14;
+					};
+				};
+			};
+			buildConfigurationList = 8BF2D6B62162A3E1009F9D14 /* Build configuration list for PBXProject "XdagWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF2D6B22162A3E1009F9D14;
+			productRefGroup = 8BF2D6BC2162A3E2009F9D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF2D6BA2162A3E2009F9D14 /* XdagWallet */,
+				8BF2D6CC2162A3E3009F9D14 /* XdagWalletTests */,
+				8BF2D6D72162A3E3009F9D14 /* XdagWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF2D6B92162A3E2009F9D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2D6C32162A3E3009F9D14 /* Assets.xcassets in Resources */,
+				8BF2D6C62162A3E3009F9D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6CB2162A3E3009F9D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6D62162A3E3009F9D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF2D6B72162A3E2009F9D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2D6BF2162A3E2009F9D14 /* AppDelegate.swift in Sources */,
+				8BCB5CE42169A38600E241BF /* ContentViewController.swift in Sources */,
+				8BCB5CE22168E61E00E241BF /* MainFrameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6C92162A3E3009F9D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2D6D22162A3E3009F9D14 /* XdagWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF2D6D42162A3E3009F9D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2D6DD2162A3E3009F9D14 /* XdagWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF2D6CF2162A3E3009F9D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF2D6BA2162A3E2009F9D14 /* XdagWallet */;
+			targetProxy = 8BF2D6CE2162A3E3009F9D14 /* PBXContainerItemProxy */;
+		};
+		8BF2D6DA2162A3E3009F9D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF2D6BA2162A3E2009F9D14 /* XdagWallet */;
+			targetProxy = 8BF2D6D92162A3E3009F9D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BF2D6C42162A3E3009F9D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF2D6C52162A3E3009F9D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF2D6DF2162A3E3009F9D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BF2D6E02162A3E3009F9D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8BF2D6E22162A3E3009F9D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XdagWallet/XdagWallet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		8BF2D6E32162A3E3009F9D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XdagWallet/XdagWallet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		8BF2D6E52162A3E3009F9D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XdagWallet.app/Contents/MacOS/XdagWallet";
+			};
+			name = Debug;
+		};
+		8BF2D6E62162A3E3009F9D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XdagWallet.app/Contents/MacOS/XdagWallet";
+			};
+			name = Release;
+		};
+		8BF2D6E82162A3E3009F9D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = XdagWallet;
+			};
+			name = Debug;
+		};
+		8BF2D6E92162A3E3009F9D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XdagWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = XdagWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF2D6B62162A3E1009F9D14 /* Build configuration list for PBXProject "XdagWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2D6DF2162A3E3009F9D14 /* Debug */,
+				8BF2D6E02162A3E3009F9D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2D6E12162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2D6E22162A3E3009F9D14 /* Debug */,
+				8BF2D6E32162A3E3009F9D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2D6E42162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2D6E52162A3E3009F9D14 /* Debug */,
+				8BF2D6E62162A3E3009F9D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2D6E72162A3E3009F9D14 /* Build configuration list for PBXNativeTarget "XdagWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2D6E82162A3E3009F9D14 /* Debug */,
+				8BF2D6E92162A3E3009F9D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF2D6B32162A3E1009F9D14 /* Project object */;
+}
