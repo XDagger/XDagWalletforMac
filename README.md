@@ -1,0 +1,3 @@
+# XDagWalletforMac
+
+To be continue
